@@ -24,7 +24,7 @@ const FavoritesPokemonPage = () => {
             <div key={item.id} className="m-4">
               <div  className="rounded w-[320px] overflow-hidden border rounded-[12px] shadow-2xl border-[#fcba03] m-2 transform transition-transform hover:scale-105 text-center">
                 <div>
-                <div className="w-full flex items-center justify-center border rounded-full w-[100px] h-[100px] mx-auto mb-[30px] bg-[#fcba03] mt-[20px]">
+                <div className="w-[100px] flex items-center justify-center border rounded-full w-[100px] h-[100px] mx-auto mb-[30px] bg-[#fcba03] mt-[20px]">
                     <img src={item.sprites.front_default} alt="" />
                   </div>
                   <div className="font-bold text-xl mb-2">{item.name}</div>
