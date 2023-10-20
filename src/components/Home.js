@@ -54,7 +54,7 @@ const Home = ({
               key={item.id}
             >
               <div className="px-6 py-4">
-                <div className="w-full flex items-center justify-center border rounded-full w-[100px] h-[100px] mx-auto mb-[30px] bg-[#fcba03] object-cover">
+                <div className="w-[100px] flex items-center justify-center border rounded-full w-[100px] h-[100px] mx-auto mb-[30px] bg-[#fcba03] object-cover">
                   <img src={item.sprites.front_default} alt="" />
                 </div>
                 <div className="font-bold text-xl mb-2 capitalize">{item.name}</div>

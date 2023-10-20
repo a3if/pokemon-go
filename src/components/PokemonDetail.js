@@ -17,7 +17,7 @@ const PokemonDetail = ({details}) => {
           {details && (
             <>
               <div className="text-[30px] font-bold mb-4 capitalize text-center">{details.name}</div>
-              <div className="w-full flex items-center justify-center border rounded-full w-[100px] h-[100px] mx-auto mb-[30px] bg-[#fcba03]">
+              <div className="w-[100px] flex items-center justify-center border rounded-full w-[100px] h-[100px] mx-auto mb-[30px] bg-[#fcba03]">
                 <img
                   src={details.sprites.front_default}
                   alt="Front Default Sprite"

@@ -11,7 +11,7 @@ const PokemonCompare = ({ details }) => {
       <div className="relative container w-full max-w-[400px] mx-auto flex items-center justify-center py-10 text-center ">
         <div className="p-4 border-red-700 w-full shadow-2xl rounded-lg  border-[#fcba03] rounded-lg border rounded-[12px]">
           <div className="text-[30px] font-bold mb-4 capitalize text-center">{details.name} </div>
-          <div className="w-full flex items-center justify-center border rounded-full w-[100px] h-[100px] mx-auto mb-[30px] bg-[#fcba03]">
+          <div className="w-[100px] flex items-center justify-center border rounded-full w-[100px] h-[100px] mx-auto mb-[30px] bg-[#fcba03]">
             <img
               src={details.sprites?.front_default || ''} // Optional chaining to prevent errors
               alt="Front Default Sprite"
